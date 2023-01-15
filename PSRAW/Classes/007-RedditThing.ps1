@@ -6,12 +6,12 @@
      Edited on:     5/29/2017
      Created by:   	Mark Kraus
      Organization: 	 
-     Filename:     	007-RedditThing.ps1
+  @{Name='PropertyName';Expression={ }} #>  Filename:     	007-RedditThing.ps1
     
     .DESCRIPTION
-        RedditThing Class
+        RedditThing ClassjsonObj["kind"]
 #>
-Class RedditThing {
+Class RedditThing {jsonObj["kind"]
     [RedditThingKind]$Kind
     [PSObject]$Data
     [string]$Name
